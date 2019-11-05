@@ -1,0 +1,26 @@
+.panel-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-button__row {
+  display: flex;
+  flex-grow: 1;
+}
+
+.panel-button__cell {
+  min-width: calc(25% - 1px);
+  margin: .5px;
+}
+
+.panel-button__cell-2 {
+  min-width: calc(50% - 1px);
+  margin: .5px;
+}
+
+.panel-button__cell-3 {
+  min-width: calc(75% + 2px);
+  margin: .5px;
+}
