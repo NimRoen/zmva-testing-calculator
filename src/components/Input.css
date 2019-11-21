@@ -1,0 +1,24 @@
+.input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-weight: 300;
+  padding-right: 4px;
+  padding-left: 4px;
+  white-space: nowrap;
+}
+
+.input-small {
+  line-height: 1rem;
+  font-size: 1em;
+}
+
+.input-smaller {
+  line-height: 3rem;
+  font-size: 1.5em;
+}
+
+.input-normal {
+  line-height: 3rem;
+  font-size: 3em;
+}

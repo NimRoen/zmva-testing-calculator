@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 400;
+  transition: all .2s ease;
+}
+
+.button:hover {
+  filter: brightness(1.2);
+}
+
+.button-common {
+  background-color: #656565;
+}
+
+.button-operator {
+  background-color: #fd9e2a;
+}
+
+.button-manage {
+  background-color: #464646;
+}
