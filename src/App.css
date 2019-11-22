@@ -19,6 +19,7 @@
   flex-direction: column;
   color: #e8e8e8;
   padding-top: 8px;
+  box-shadow: 0 0 40px rgba(0,0,0,.3);
 }
 
 .row {
